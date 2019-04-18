@@ -14,6 +14,7 @@ module.exports = {
       directory: './data/seeds',
     },
   },
+  //running migrations: knex migrate:latest --env=testing
   testing: {
     client: 'sqlite3',
     connection: {
